@@ -297,7 +297,7 @@ static int _recv_message_fragment(lcm_udpm_t *lcm, lcm_buf_t *lcmb, uint32_t sz)
                 "insufficient buffer space is very high.\n"
                 "\n"
                 "For more information, visit:\n"
-                "   http://lcm-proj.github.io/lcm/multicast_setup.html\n\n");
+                "   http://lcm-proj.github.io/lcm/content/multicast-setup.html\n\n");
         lcm->warned_about_small_kernel_buf = 1;
     }
 #endif
